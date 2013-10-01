@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /dev/game/online/
+# RewriteBase /dev/game/online/
 RewriteRule ^(.*).(gif|jpg|jpeg|png)$ images/$1.$2 [L]
 #RewriteRule .* index.html [L]
 
